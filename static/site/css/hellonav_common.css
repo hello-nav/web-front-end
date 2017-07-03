@@ -21,7 +21,11 @@
 
 
 
-
+.radius-5{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
 
 .radius-50 {
@@ -31,4 +35,8 @@
 }
 .margin-15{
 	margin : 15px;
+}
+
+.min-w-90-px{
+    min-width: 90px;
 }
