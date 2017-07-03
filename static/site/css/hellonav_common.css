@@ -40,3 +40,49 @@
 .min-w-90-px{
     min-width: 90px;
 }
+
+.btn-32{
+    width : 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tipbar-logo{
+    width: 100px;
+    height: 48px;
+}
+.search-bar-input{
+    height: 40px;
+}
+
+/*************** background ******************/
+
+.logo{
+    background-image: url("../images/logo_105x55.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.home-btn{
+    background-image: url("../images/home_gray.png") ;
+}
+.home-btn:hover{
+    background-image: url("../images/home_light.png");
+}
+.find-btn{
+    background-image: url("../images/find_gray.png");
+}
+.find-btn:hover{
+    background-image: url("../images/find_light.png");
+}
+.custome-btn{
+    background-image: url("../images/custome_gray.png");
+}
+.custome-btn:hover{
+    background-image: url("../images/custome_light.png");
+}
+
+
+
