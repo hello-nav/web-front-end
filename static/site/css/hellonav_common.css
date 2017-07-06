@@ -121,6 +121,18 @@
     width: 90px;
 }
 
+.team-member-wrapper:hover .team-member-avatar{
+    top: 58px;
+    left: 68px;
+}
+.team-member-wrapper:hover .team-info-head-img{
+    height: 94px;
+    width: 94px;
+    border: 1px;
+    border-radius: 50%;
+    border-color: #000;
+}
+
 .team-member-wrapper:hover .team-member-info{
     visibility: visible;
 }
