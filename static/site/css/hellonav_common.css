@@ -2,9 +2,13 @@
 /*************** basic ******************/
 
 
+.container {
+    background-color: #eeeeee;
+}
 
-
-
+.row{
+    padding-top: 10px;
+}
 
 
 
@@ -48,6 +52,10 @@
     background-repeat: no-repeat;
 }
 
+.h50{
+    height: 50px;
+}
+
 .tipbar-logo{
     width: 100px;
     height: 48px;
@@ -84,5 +92,41 @@
     background-image: url("../images/custome_light.png");
 }
 
+
+/*************** teaminfo ******************/
+
+.team-member-wrapper{
+    position: relative;
+    z-index: 0;
+}
+
+.team-member-info{
+    visibility: hidden;
+    height: 120px;
+    background-color: #46b8da;
+}
+.team-member-intro{
+    visibility: hidden;
+    height: 140px;
+    background-color: #fefefe;
+}
+.team-member-avatar{
+    z-index: 100;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+.team-info-head-img{
+    height: 90px;
+    width: 90px;
+}
+
+.team-member-wrapper:hover .team-member-info{
+    visibility: visible;
+}
+
+.team-member-wrapper:hover .team-member-intro{
+    visibility: visible;
+}
 
 
