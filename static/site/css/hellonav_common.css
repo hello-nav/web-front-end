@@ -22,21 +22,11 @@
 
 
 
-
-
-
-.radius-5{
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+.width-100-p-100{
+    width: 100%;
 }
 
 
-.radius-50 {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-}
 .margin-15{
 	margin : 15px;
 }
