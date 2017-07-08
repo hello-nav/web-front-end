@@ -3,7 +3,7 @@
 
 
 .container {
-    background-color: #eeeeee;
+    background-color: #fafafa;
 }
 
 .row{
@@ -58,7 +58,7 @@
 
 .tipbar-logo{
     width: 100px;
-    height: 48px;
+    height: 40px;
 }
 .search-bar-input{
     height: 40px;
@@ -71,6 +71,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.search-input-icon{
+    background-image: url("../images/seach-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .home-btn{
@@ -91,7 +96,6 @@
 .custome-btn:hover{
     background-image: url("../images/custome_light.png");
 }
-
 
 /*************** teaminfo ******************/
 
