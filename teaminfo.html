@@ -28,27 +28,32 @@
 		<div class="container">
 			<div class="tipbar  row ">
 				<div class="col-xs-2 hidden-sm">
-					<span class="tipbar-logo logo center-block">
-					</span>
+					<a href="./index.html">
+						<span class="tipbar-logo logo center-block">
+						</span>
+					</a>
 				</div>
 				<div class="tipbar-search-bar has-feedback has-success col-xs-8 col-md-8 col-lg-8">
+					<form method="get" action="./search.action">
 					<div class="input-group col-xs-11">
 						<span class="input-group-addon search-input-icon">　</span>
 						<input class="search-bar-input  col-xs-12 form-control" name="keywords" placeholder="请输入搜索内容"  />
 						<span class="glyphicon input-group-btn " aria-hidden="true">
-							<button class="btn btn-success search-input-btn"> 搜索</button>
+							<button type="submit" class="btn btn-success search-input-btn"> 搜索</button>
 						</span>
 					</div>
+					</form>
 				</div>
 				<div class="tipbar-btn-group  col-xs-4 col-md-2 col-lg-2">
-					<a class="btn home-btn btn-32" title="home"></a>
-					<a class="btn find-btn btn-32" title="find"></a>
-					<a class="btn custome-btn btn-32" title="home"></a>
+					<a class="btn home-btn btn-32" title="home" href="./index.html"></a>
+					<a class="btn find-btn btn-32" title="find" href="./find.html"></a>
+					<a class="btn custom-btn btn-32" title="home" href="./custom.html"></a>
 					
 				</div>
 			</div>
 		</div>
     </div>
+
     <div class="content-all content-wrapper">
 		<div class="container">
 			<!-- 内容元素-->
@@ -62,7 +67,7 @@
 					<div class="h1">我们的团队</div>
 				</div>
 				<div class="text-center">
-					<div><img src="static/site/images/blue_line_93x3.jpg"><div>
+					<div><img src="static/site/images/blue_line_93x3.jpg"></div>
 				</div>
 				<div class="text-center">
 					<div class="h3">一群有梦，不甘平凡的人聚在了一起！青春与梦想在这里碰撞、摩擦出绚烂的火花</div>
@@ -159,7 +164,6 @@
 			</div>
 		</div>
     </div>
-
 
 </body>
 </html>

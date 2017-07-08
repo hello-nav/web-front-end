@@ -85,11 +85,11 @@
 .find-btn:hover{
     background-image: url("../images/find_light.png");
 }
-.custome-btn{
-    background-image: url("../images/custome_gray.png");
+.custom-btn{
+    background-image: url("../images/custom_gray.png");
 }
-.custome-btn:hover{
-    background-image: url("../images/custome_light.png");
+.custom-btn:hover{
+    background-image: url("../images/custom_light.png");
 }
 
 /*************** teaminfo ******************/
