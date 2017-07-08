@@ -1,4 +1,12 @@
 
+@media (min-width: 1500px){
+
+    .container {
+        width: 1470px;
+    }
+}
+
+
 /*************** basic ******************/
 
 
@@ -17,6 +25,7 @@ body {
 .navbar{
     height: 75px;
 }
+
 
 
 
@@ -90,6 +99,111 @@ body {
 
 .inline-table{
     display: inline-table;
+}
+
+
+/*************** index.html *****************/
+
+.hello-nav-content{
+    display: table-cell;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.right-bar{
+    display: inline-block;
+    width: 300px;
+    min-height: 600px;
+}
+
+.hello-nav-content-inner{
+    min-height: 600px;
+}
+
+.favorite-item{
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-right: 30px;
+    min-width: 330px;
+    max-height: 130px;
+    min-height: 130px;
+    overflow-y: hidden;
+}
+
+.up-area{
+    margin-left: 0px;
+}
+.down-area{
+    margin-left: 0px;
+    padding-top: 0px;
+}
+.favorite-item-hr{
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
+
+.favorite-item-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.favorite-vpn{
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #66afe9;
+    color:  #66afe9;
+    width: 32px;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.favorite-status-ok{
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 12px;
+    background-image: url("../images/favorite_ok.png");
+}
+
+.favorite-status-un{
+    background-image: url("../images/favorite_un.png");
+}
+
+.site-avatar-img{
+    width: 50px;
+    height: 50px;
+}
+.item-site-avatar{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.item-intro-row{
+    margin-top: 12px;
+}
+
+.favorite-item-tag{
+    margin-right: 16px;
+}
+
+
+/*‘ﬁ÷˙…Ã*/
+
+.friends-links{
+    margin-top: 30px;
+}
+
+.link-friend-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.support-ad-title{
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
