@@ -2,6 +2,10 @@
 /*************** basic ******************/
 
 
+body {
+    background-color: #fefefe;
+}
+
 .container {
     background-color: #fafafa;
 }

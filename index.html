@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_CN" >
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>首页 - Hello Nav</title>
+
+    <link href="static/bootstrap/3.3.7/css/bootstrap.min.css"  rel="stylesheet" />
+    <link href="static/bootstrap/3.3.7/css/bootstrap-theme.min.css"  rel="stylesheet" />
+
+    <link href="static/site/css/hellonav_common.css"  rel="stylesheet" />
+
+    <!-- fundebug -->
+    <script src="https://og6593g2z.qnssl.com/fundebug.0.1.0.min.js" apikey="d73aefc4a86e70b10b4a148317afe87d148b17a0bb4b8a34a691d729105d94bf"></script>
 </head>
 <body>
+    <div class="top-hide tip-wrapp">
+        <!-- 顶部-隐藏-提示信息条-->
+        <div class="container">
+            <div class="tip-bar">
+            </div>
+        </div>
+    </div>
+
+    <div class="topnav-wrap content-wrapper">
+        <!-- 顶部导航 -->
+        <div class="container">
+            <div class="tipbar  row ">
+                <div class="col-xs-2 hidden-sm">
+                    <a href="./index.html">
+						<span class="tipbar-logo logo center-block">
+						</span>
+                    </a>
+                </div>
+                <div class="tipbar-search-bar has-feedback has-success col-xs-8 col-md-8 col-lg-8">
+                    <form method="get" action="./search.action">
+                        <div class="input-group col-xs-11">
+                            <span class="input-group-addon search-input-icon">　</span>
+                            <input class="search-bar-input  col-xs-12 form-control" name="keywords" placeholder="请输入搜索内容"  />
+						<span class="glyphicon input-group-btn " aria-hidden="true">
+							<button type="submit" class="btn btn-success search-input-btn"> 搜索</button>
+						</span>
+                        </div>
+                    </form>
+                </div>
+                <div class="tipbar-btn-group  col-xs-4 col-md-2 col-lg-2">
+                    <a class="btn home-btn btn-32" title="首页" href="./index.html"></a>
+                    <a class="btn find-btn btn-32" title="发现" href="./explore.html"></a>
+                    <a class="btn custom-btn btn-32" title="个人页面" href="./favorite.html"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separate">
+        <hr/>
+    </div>
+
+    <div class="content-all content-wrapper">
+        <div class="container">
+            <!-- 内容元素-->
+            <div class="row">
+                <!-- -->
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottomnav content_wrapper">
+        <!-- 底部导航 -->
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
