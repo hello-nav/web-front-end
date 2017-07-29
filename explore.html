@@ -1,10 +1,891 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_CN">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>发现 - Hello Nav</title>
+
+    <link href="static/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="static/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+    <link href="static/site/css/hellonav_common.css" rel="stylesheet"/>
+
+    <!-- fundebug -->
+    <script src="https://og6593g2z.qnssl.com/fundebug.0.1.0.min.js"
+            apikey="d73aefc4a86e70b10b4a148317afe87d148b17a0bb4b8a34a691d729105d94bf"></script>
 </head>
 <body>
+<div class="top-hide tip-wrapp">
+    <!-- 顶部-隐藏-提示信息条-->
+    <div class="container">
+        <div class="tip-bar">
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="topnav-wrap content-wrapper">
+        <!-- 顶部导航 -->
+        <div class="container">
+            <div class="navbar-header tipbar row inline-table">
+                <a href="./index.html" class="navbar-brand-link">
+                    <img class="navbar-brand-link" src="./static/site/images/logo_105x55.png"/>
+                </a>
+
+                <div class="tipbar-search-bar  pt-10 table-cell">
+                    <form method="get" action="./search.action">
+                        <div class="input-group col-xs-11">
+                            <span class="input-group-addon search-input-icon">　</span>
+                            <input class="search-bar-input  col-xs-12 form-control" name="keywords"
+                                   placeholder="请输入感兴趣的内容..."/>
+						<span class="glyphicon input-group-btn " aria-hidden="true">
+							<button type="submit" class="btn btn-success search-input-btn"> 搜索</button>
+						</span>
+                        </div>
+                    </form>
+                </div>
+                <div class="tipbar-btn-group">
+                    <a class="btn home-btn btn-32 mt-11" title="首页" href="./index.html"></a>
+                    <a class="btn find-btn btn-32 ml-28 mt-11" title="发现" href="./explore.html"></a>
+                    <a class="btn custom-btn btn-32 ml-28 mt-11" title="个人页面" href="./favorite.html"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="">
+    <div class="container">
+        <div class="hot-label-title row text-center center-block">
+            <div class="">热门标签</div>
+        </div>
+        <div class="hot-label-list row text-center">
+            <span class="hot-label-item active">热门标签1</span>
+            <span class="hot-label-item">热门标签2</span>
+            <span class="hot-label-item">热门标签3</span>
+            <span class="hot-label-item">热门标签4</span>
+            <span class="hot-label-item">热门标签5</span>
+            <span class="hot-label-item">热门标签6</span>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="content-all content-wrapper">
+    <div class="container">
+        <div class="">
+            <!-- 左侧,内容区-->
+            <div class="hello-nav-content col-lg-9 col-xs-12">
+                <div class="hello-nav-content-inner">
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 单个 item-->
+                    <div class="favorite-item col-lg-3 col-md-5 col-sm-12 img-rounded">
+                        <div class="up-area row">
+                            <div class="item-title-row">
+                                <span class="favorite-item-title">网站名称</span>
+                                <span class="favorite-vpn">VPN</span>
+                                <span class="favorite-status favorite-status-ok">　</span>
+                            </div>
+                            <div class="item-intro-row">
+                                <span>介绍： 只一行。。。。。</span>
+                            </div>
+                            <div class="item-site-avatar">
+                                <img class="img-circle site-avatar-img" src="static/site/images/gray_18x18.png"/>
+                            </div>
+
+                        </div>
+                        <div>
+                            <hr class="favorite-item-hr"/>
+                        </div>
+
+                        <div class="down-area row">
+                            <a>
+                                <span class="favorite-item-tag">标签1</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签2</span>
+                            </a>
+                            <a>
+                                <span class="favorite-item-tag">标签3</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-bar col-lg-3">
+                <!-- 友链 -->
+                <div class="friend-link-list">
+                    <!-- -->
+                    <div class="link-friend-title">
+                        <span>推荐链友</span>
+                    </div>
+                    <hr/>
+
+                    <div class="link-friend-item">
+                            <span class="">
+                                <img class="link-friend-icon img-rounded"
+                                     src="static/site/resources/images/cncounter.png"/>
+                            </span>
+                            <span class="inline-block link-item-info">
+                                <div class="link-item-name">链友名称</div>
+                                <div class="link-item-tags">
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                </div>
+                            </span>
+                        <img class="friends-link-add-icon img-rounded pull-right"
+                             src="./static/site/images/add-icon.png"/>
+                    </div>
+                    <hr/>
+
+                    <div class="link-friend-item">
+                            <span class="">
+                                <img class="link-friend-icon img-rounded"
+                                     src="static/site/resources/images/cncounter.png"/>
+                            </span>
+                            <span class="inline-block link-item-info">
+                                <div class="link-item-name">链友名称</div>
+                                <div class="link-item-tags">
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                </div>
+                            </span>
+                        <img class="friends-link-add-icon img-rounded pull-right"
+                             src="./static/site/images/add-icon.png"/>
+                    </div>
+                    <hr/>
+
+                    <div class="link-friend-item">
+                            <span class="">
+                                <img class="link-friend-icon img-rounded"
+                                     src="static/site/resources/images/cncounter.png"/>
+                            </span>
+                            <span class="inline-block link-item-info">
+                                <div class="link-item-name">链友名称</div>
+                                <div class="link-item-tags">
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                </div>
+                            </span>
+                        <img class="friends-link-add-icon img-rounded pull-right"
+                             src="./static/site/images/add-icon.png"/>
+                    </div>
+                    <hr/>
+
+                    <div class="link-friend-item">
+                            <span class="">
+                                <img class="link-friend-icon img-rounded"
+                                     src="static/site/resources/images/cncounter.png"/>
+                            </span>
+                            <span class="inline-block link-item-info">
+                                <div class="link-item-name">链友名称</div>
+                                <div class="link-item-tags">
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                </div>
+                            </span>
+                        <img class="friends-link-add-icon img-rounded pull-right"
+                             src="./static/site/images/add-icon.png"/>
+                    </div>
+                    <hr/>
+
+                    <div class="link-friend-item">
+                            <span class="">
+                                <img class="link-friend-icon img-rounded"
+                                     src="static/site/resources/images/cncounter.png"/>
+                            </span>
+                            <span class="inline-block link-item-info">
+                                <div class="link-item-name">链友名称</div>
+                                <div class="link-item-tags">
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                </div>
+                            </span>
+                        <img class="friends-link-add-icon img-rounded pull-right"
+                             src="./static/site/images/add-icon.png"/>
+                    </div>
+                    <hr/>
+
+                    <div class="link-friend-item">
+                            <span class="">
+                                <img class="link-friend-icon img-rounded"
+                                     src="static/site/resources/images/cncounter.png"/>
+                            </span>
+                            <span class="inline-block link-item-info">
+                                <div class="link-item-name">链友名称</div>
+                                <div class="link-item-tags">
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                    <span>链友标签</span>
+                                </div>
+                            </span>
+                        <img class="friends-link-add-icon img-rounded pull-right"
+                             src="./static/site/images/add-icon.png"/>
+                    </div>
+                    <hr/>
+                    <div class="link-friend-more row">
+                        <a href="./linkfriends.html">
+                            <span>发现更多</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- 赞助商-->
+                <div class="support-ad-area">
+                    <div>
+                        <span class="support-ad-title">赞助商</span>
+                    </div>
+                    <div class="support-ad-list">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- 底部导航 -->
+<footer class="footer">
+    <hr/>
+    <div class="container text-center" id="info">
+        Hello-Nav | hellonav |
+        <a target="_blank" href="/test/index.html">&copy;</a>
+        2017 -
+        |
+                <span id='cnzz_stat_icon_1000461034'>
+
+                </span>
+
+                <span class="cnzz hidden">
+                    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cspan id='cnzz_stat_icon_1262741877'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262741877%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script>
+                </span>
+    </div>
+
+</footer>
+
 
 </body>
 </html>
